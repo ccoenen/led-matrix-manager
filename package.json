@@ -4,12 +4,12 @@
   "description": "Uses rpi-rgb-led-matrix and youtuble-dl to show content on an led-matrix",
   "main": "index.js",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",
-    "pug": "^2.0.3"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
   },
   "devDependencies": {
-    "nodemon": "^1.17.5"
+    "nodemon": "^2.0.2"
   },
   "scripts": {
     "nodemon": "./node_modules/.bin/nodemon --ignore 'media/*' index.js",
