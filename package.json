@@ -12,6 +12,7 @@
     "nodemon": "^1.17.5"
   },
   "scripts": {
+    "nodemon": "./node_modules/.bin/nodemon --ignore 'media/*' index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Claudius Coenen <opensource@amenthes.de>",
